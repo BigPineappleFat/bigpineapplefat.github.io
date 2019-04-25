@@ -1,0 +1,330 @@
+<!doctype html><!--声明文档类型 html5-->
+	<html lang="en"><!--html文档的开始标签 双标签 存放网页所有内容-->
+		<head><!--头部：存放网页上给浏览器或是搜索引擎看的信息-->
+			<meta charset="UTF-8"><!--网页语言标准-->
+			<meta name="Generator" content="EditPlus®"><!--网页的制作工具信息-->
+		    <meta name="Author" content="Pineapple"><!--网页的作者信息-->
+			<meta name="Keywords" content=""><!--网页的关键字信息-->
+			<meta name="Description" content=""><!--网页的简介-->
+			<title>小米商城</title><!--网页名称-->
+			<link rel="shortcut icon" href="https://s01.mifile.cn/favicon.ico" type="image/x-icon" />
+			<link rel="stylesheet" href="style.css"></link><!-- 引入css样式 -->
+		</head>
+		<body><!--身体：存放用户在网页上能够看到的内容-->
+			<header><!-- 头部导航栏 -->
+				<div class="top-nav">
+					<div class="left-nav">
+						<ul>
+							<li>
+								<a href="">小米商城</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">MIUI</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">IoT</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">云服务</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">金融</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">有品</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">小爱开放平台</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">政企服务</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">资质证照</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">协议规则</a>
+							</li>
+							<span class="sep">|</span>
+							<li class="nav-top-download">
+								<a href="">下载app</a>
+								<span class='download'>
+									<em></em>
+									<img src='images/download.png'>
+									<p>小米商城APP</p>
+								<span>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">Select Region</a>
+							</li>
+						</ul>
+					</div>
+					<div class="right-nav">
+						<ul>
+							<li>
+								<a href="denglu.html">登录</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="denglu.html">注册</a>
+							</li>
+							<span class="sep">|</span>
+							<li>
+								<a href="">消息通知</a>
+							</li>
+							<span class="sep">|</span>
+							<li class="top-nav-cart">
+								<i class="iconfont">&#xe67e;</i>
+								<a href="">购物车(0)</a>
+								<div class="top-nav-cart-msg"><p>购物车中还没有商品，赶紧选购吧。</p></div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<div class="top-search">
+				<div class="search"><!-- 搜索框区域 -->
+					<div class="search-logo">
+						<h1><img src='./images/mi-logo.png' alt='小米官网'></h1>
+						<img src='./images/mifenjie.gif' alt='米粉节'>
+					</div>
+					<div class="search-nav">
+						<ul>
+							<li>
+								<a>小米手机</a>
+								<div class="search-product">
+								<ul>
+									<li>
+										<div class="new-product-nav">新品</div>
+										<div class="bgimg">
+											<img src="./images/mi9-320.png">
+										</div>
+										<p>小米9</p>
+										<span>2999元</span>
+									</li>
+								</ul>
+							</div>
+							</li>
+							<li>红米</li>
+							<li>电视</li>
+							<li>笔记本</li>
+							<li>家电</li>
+							<li>新品</li>
+							<li>路由器</li>
+							<li>智能硬件</li>
+							<li>服务</li>
+							<li>社区</li>
+						</ul>
+					</div>
+					<div class="search-box">
+						<input>
+						<div>
+							<i class="iconfont">&#xe637;</i>
+						</div>
+					</div>
+					<div class="search-box-titl">
+						<a href="">小米9</a>
+						<a href="">小米9 SE</a>
+					</div>
+				</div>
+			</div>
+			<div class="banner"><!-- 轮播图区域 -->
+				<input class='banner1' type='radio' name="banner" checked='checked'>
+				<input class='banner2' type='radio' name="banner">
+				<input class='banner3' type='radio' name="banner">
+				<input class='banner4' type='radio' name="banner">
+				<input class='banner5' type='radio' name="banner">
+				<div class="backgroundpic1 backgroundpic">
+					<img src="./images/xmad_15535118079351_vJKoX.jpg">
+				</div>
+				<div class="backgroundpic2 backgroundpic">
+					<img src="./images/xmad_15554080824205_AMwsQ.jpg">
+				</div>
+				<div class="backgroundpic3 backgroundpic">
+					<img src="./images/xmad_15531616096346_mMwvn.jpg">
+				</div>
+				<div class="backgroundpic4 backgroundpic">
+					<img src="./images/xmad_15548066591437_Stxlj.jpg">
+				</div>
+				<div class="backgroundpic5 backgroundpic">
+					<img src="./images/xmad_15451099978864_zHauD.jpg">
+				</div>
+				<div class="banner-left">
+					<ul>
+						<li>
+							<a>手机 电话卡<i class="iconfont">&#xe643;</i></a>
+							<ul class="banner-msg">
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+							</ul>
+						</li>
+						<li>
+							<a>电视 盒子<i class="iconfont">&#xe643;</i></a>
+							<ul class="banner-msg">
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+								<li><img src="./images/mi9-80.png"><span>小米9</span></li>
+							</ul>
+						</li>
+						<li>
+							<a>笔记本 平板<i class="iconfont">&#xe643;</i></a>
+							<ul class="banner-msg">
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<a>家电 插线板<i class="iconfont">&#xe643;</i></a>
+							<ul class="banner-msg">
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<a>出行 穿戴<i class="iconfont">&#xe643;</i></a>
+							<ul class="banner-msg">
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<a>智能 路由器<i class="iconfont">&#xe643;</i></a>
+							<ul class="banner-msg">
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<a>电源 配件<i class="iconfont">&#xe643;</i></a>
+							<ul class="banner-msg">
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<a>健康 儿童<i class="iconfont">&#xe643;</i></a>
+							<ul class="banner-msg">
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<a>耳机 音箱<i class="iconfont">&#xe643;</i></a>
+							<ul class="banner-msg">
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<a>生活 箱包<i class="iconfont">&#xe643;</i></a>
+							<ul class="banner-msg">
+								<li></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-menu">
+				<div class="main-menu-i">
+					<div><i class="iconfont"></i><span>选购手机</span></div>
+					<div><i class="iconfont"></i><span>企业团购</span></div>
+					<div><i class="iconfont"></i><span>F码通道</span></div>
+					<div><i class="iconfont"></i><span>米粉卡</span></div>
+					<div><i class="iconfont"></i><span>以旧换新</span></div>
+					<div><i class="iconfont"></i><span>话费充值</span></div>
+				</div>
+				<div class="main-menu-img">
+					<img src="./images/xmad_15553254946305_vTBIw.jpg">
+				</div>
+				<div class="main-menu-img">
+					<img src="./images/xmad_15553962519926_fcMZl.jpg">
+				</div>
+				<div class="main-menu-img">
+					<img src="./images/xmad_1553498749697_XSTlV.jpg">
+				</div>
+			</div><!-- 主要广告导航区域 -->
+			<div class="top-product"></div><!-- 横幅广告 -->
+			<div class="main"><!-- 商品区域 -->
+				<section class="main-product"><!-- 主要商品信息 -->
+					<div class="pro-title"><!-- 商品文字区域 --></div>
+					<div class="pro-list"><!-- 商品列表区域 --></div>
+				</section>
+				<div class="top-product"></div><!-- 横幅广告 -->
+				<section class="main-product">
+					<div class="pro-title"><!-- 商品文字区域 --></div>
+					<div class="pro-list"><!-- 商品列表区域 --></div>
+				</section>
+				<div class="top-product"></div><!-- 横幅广告 -->
+				<section class="main-product">
+					<div class="pro-title"><!-- 商品文字区域 --></div>
+					<div class="pro-list"><!-- 商品列表区域 --></div>
+				</section>
+				<div class="top-product"></div><!-- 横幅广告 -->
+				<section class="main-product">
+					<div class="pro-title"><!-- 商品文字区域 --></div>
+					<div class="pro-list"><!-- 商品列表区域 --></div>
+				</section>
+				<div class="top-product"></div><!-- 横幅广告 -->
+				<section class="main-product">
+					<div class="pro-title"><!-- 商品文字区域 --></div>
+					<div class="pro-list"><!-- 商品列表区域 --></div>
+				</section>
+				<div class="top-product"></div><!-- 横幅广告 -->
+				<section class="main-product">
+					<div class="pro-title"><!-- 商品文字区域 --></div>
+					<div class="pro-list"><!-- 商品列表区域 --></div>
+				</section>
+				<section class="recommand-product">
+					<div class="pro-title"><!-- 商品文字区域 --></div>
+					<div class="pro-list"><!-- 商品列表区域 --></div>
+				</section>
+				<section class="hot-product">
+					<div class="pro-title"><!-- 商品文字区域 --></div>
+					<div class="pro-list"><!-- 商品列表区域 --></div>
+				</section>
+				<section class="app-product">
+					<div class="pro-title"><!-- 商品文字区域 --></div>
+					<div class="pro-list"><!-- 商品列表区域 --></div>
+				</section>
+				<section class="video-product">
+					<div class="pro-title"><!-- 商品文字区域 --></div>
+					<div class="pro-list"><!-- 商品列表区域 --></div>
+				</section>
+			</div>
+			<footer>
+				
+			</footer>
+		</body>
+	</html><!--html文档的结束标签-->
